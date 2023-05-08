@@ -14,34 +14,13 @@ html {
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: rgb(255,177,136);
-    background: linear-gradient(90deg, rgba(255,177,136,1) 0%, rgba(255,217,128,1) 100%);
+    margin-bottom: 60px;
 }
 
-
-@media (min-width: 576px) {
-    nav {
-        height: 60px;
-        overflow: hidden;
-    }
+ol > li::marker {
+    font-weight: bold;
 }
 
-nav {
-    background-color: #fffef3 !important;
-}
-
-#menu {
-    border-radius: 20px;
-    box-shadow: 1px 0.5px 15px grey;
-    background: white;
-}
-
-footer {
-    padding: 20px 0;
-    margin-top: auto !important;
-    background-color: #fffef3 !important;
-    height: 100% !important;
+hr {
+    opacity: 0.3;
 }
